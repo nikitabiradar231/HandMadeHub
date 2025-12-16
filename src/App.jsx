@@ -2,10 +2,11 @@ import React, { useState, useCallback } from 'react';
 import { Home, ShoppingBag, ImagePlus, User, LogOut, Wallet, Github, Users } from 'lucide-react';
 
 // LoginPage Component
-function LoginPage({ email, setEmail, password, setPassword, handleLogin, handleSocialLogin, handleWalletConnect }) {
+function LoginPage({ email, setEmail, password, setPassword, handleLogin, handleWalletConnect }) {
   const [account, setAccount] = useState(null);
   
-  
+  //handleSocialLogin
+
   // Connect Wallet Function with MetaMask
   const connectWallet = async () => {
     if (!window.ethereum) {
@@ -57,7 +58,7 @@ function LoginPage({ email, setEmail, password, setPassword, handleLogin, handle
           )}
         </div>
 
-        <div className="relative my-6">
+      {/*<div className="relative my-6">
           <div className="absolute inset-0 flex items-center">
             <div className="w-full border-t border-gray-300"></div>
           </div>
@@ -95,7 +96,7 @@ function LoginPage({ email, setEmail, password, setPassword, handleLogin, handle
           >
             <Github size={20} className="text-gray-700" />
           </button>
-        </div>
+        </div>*/}
 
         <div className="space-y-4">
           <div>

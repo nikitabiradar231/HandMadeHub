@@ -13,6 +13,7 @@
     "@openzeppelin/contracts": "^5.4.0",
     "@react-oauth/google": "^0.12.2",
     "@tailwindcss/vite": "^4.1.17",
+    "axios": "^1.13.2",
     "lucide-react": "^0.553.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
